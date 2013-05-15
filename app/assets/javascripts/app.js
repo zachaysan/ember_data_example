@@ -11,5 +11,6 @@
 App = Em.Application.create({LOG_TRANSITIONS: true});
 
 // Defer App readiness until it should be advanced for either
-// testing or production.
+// testing or production. Note that 
+// app/views/application/index.html.erb advances readiness.
 App.deferReadiness();
